@@ -5,15 +5,15 @@ switch (action.type) {
     case 'SET_USER':
         return {
             ...state, 
-            user : action.user
+            user : action.user,
         }
         case 'SET_USER_NULL':
             return {
                 ...state, 
-                user : null
+                user : null,
             }
             default: 
-            return state       
+            return state;     
 }
-}
+};
 export default userAuthReducer;

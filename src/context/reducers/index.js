@@ -9,4 +9,4 @@ const myReducer = combineReducers({
     projects : projectReducer,
     searchTerm : searchReducer,
 })
-export default myReducer
+export default myReducer;
